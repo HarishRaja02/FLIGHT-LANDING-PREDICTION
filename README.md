@@ -87,7 +87,8 @@ The model was trained using **Linear Regression** and the intercept and coeffici
 
 ## 👨‍💻 Author
 
-- **Harish R** - Artificial Intelligence & Data Science Enthusiast
+- **Harish R** - Artificial Intelligence & Data Science
+- **Gurucharan Raj K** - Artificial Intelligence & Data Science
 
 ---
 
