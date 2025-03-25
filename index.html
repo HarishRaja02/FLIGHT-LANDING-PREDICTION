@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Landing Time Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cloud overlay -->
+    <div class="cloud-layer">
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+    </div>
+
+    <!-- Planes -->
+    <div class="plane-symbol plane1">ᯓ ✈︎</div>
+    <div class="plane-symbol plane2">ᯓ ✈︎</div>
+    <div class="plane-symbol plane3">ᯓ ✈︎</div>
+
+    <!-- Main Form -->
+    <div class="container">
+        <h1>Flight Landing Time Predictor ✈️</h1>
+        <form id="predictForm">
+            <label>Departure Time (HHMM):</label>
+            <input type="number" id="dep_time" placeholder="e.g. 1230" required>
+
+            <label>Distance (km):</label>
+            <input type="number" id="distance" placeholder="e.g. 800" required>
+
+            <label>Departure Delay (mins):</label>
+            <input type="number" id="dep_delay" placeholder="e.g. 15" required>
+
+            <label>Taxi-Out Time (mins):</label>
+            <input type="number" id="taxi_out" placeholder="e.g. 10" required>
+
+            <label>Taxi-In Time (mins):</label>
+            <input type="number" id="taxi_in" placeholder="e.g. 7" required>
+
+            <button type="submit">Predict Landing Time</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
